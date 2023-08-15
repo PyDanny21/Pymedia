@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfilepage-Socialbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="logo.png" class="logo"></a>
+            <ul>
+                <li><img src="notification.png" alt="" srcset=""></li>
+                <li><img src="inbox.png" alt="" srcset=""></li>
+                <li><img src="video.png" alt="" srcset=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="searchbox">
+                <img src="search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="profile-pic.png" alt="">
+            </div>
+        </div>
+
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings">
+                <div class="user-profile">
+                    <img src="profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div>                   
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>                   
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="setting.png" alt="" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="arrow.png" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="help.png" alt="" class="settings-icon">
+                    <a href="#">Help and Support <img src="arrow.png" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="display.png" alt="" class="settings-icon">
+                    <a href="#">Display and Accessibility <img src="arrow.png" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="logout.png" alt="" class="settings-icon">
+                    <a href="#">Log out<img src="arrow.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- profile-page -->
+    <div class="profile-container">
+        <img src="cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="profile.png" class="pd-img">
+                    <div>
+                        <h3>Jack Nicholson</h3>
+                        <p>120 friends -20 mutual</p>
+                        <img src="member-1.png">
+                        <img src="member-2.png">
+                        <img src="member-3.png">
+                        <img src="member-4.png">
+                    </div>
+                </div>
+
+            </div>
+            <div class="pd-right">
+
+                <button type="button"><img src="add-friends.png" alt=""> Friends</button>
+                <button type="button"><img src="message.png" alt=""> Message</button>
+                <br>
+                <a href="#"><img src="more.png" alt=""></a>
+
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="feeling.png " alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="profile-job.png" alt="">Director at 99media Ltd</li>
+                        <li><img src="profile-study.png" alt="">Studied at Amity University</li>
+                        <li><img src="profile-study.png" alt="">Went to Adisadel College</li>
+                        <li><img src="profile-home.png" alt="">Lives in Accra</li>
+                        <li><img src="profile-location.png" alt="">From Mankessim, Ghana</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>                        
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="photo1.png"></div>
+                        <div><img src="photo2.png"></div>
+                        <div><img src="photo3.png"></div>
+                        <div><img src="photo4.png"></div>
+                        <div><img src="photo5.png"></div>
+                        <div><img src="photo6.png"></div>
+                    </div>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>                        
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="member-1.png"><p>John N.</p></div>
+                        <div><img src="member-2.png"><p>Freda A.</p></div>
+                        <div><img src="member-3.png"><p>George A.</p></div>
+                        <div><img src="member-4.png"><p>Daniel A.</p></div>
+                        <div><img src="member-5.png"><p>Eshun K.</p></div>
+                        <div><img src="member-6.png"><p>Hayford J.</p></div>
+                        <div><img src="member-7.png"><p>Kingsley</p></div>
+                        <div><img src="member-8.png"><p>Appiah</p></div>
+                        <div><img src="member-9.png"><p>Erica P.</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <small>Public <span>&DoubleDownArrow;</span></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind John?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="live-video.png" alt="">Live Video</a>
+                            <a href="#"><img src="photo.png" alt="">Photo/Video</a>
+                            <a href="#"><img src="feeling.png" alt="">Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png" alt="">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>July 24 2023, 13:40 PM</span>
+                            </div>                   
+                        </div>
+                        <a href="#">&DotDot;</a>
+                    </div>
+                    <p class="post-text">Subscribe <span>@pydanny_21</span> on tiktok to watch more videos on website development and UI design. <a href="#">tiktok@pydanny_21</a><a href="#">insta@pydanny21</a></p>
+                    <img src="feed-image-1.png" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png" alt="">120</div>
+                            <div><img src="comments.png" alt="">45</div>
+                            <div><img src="share.png" alt="">29</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="profile-pic.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png" alt="">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>July 24 2023, 13:40 PM</span>
+                            </div>                   
+                        </div>
+                        <a href="#">&DotDot;</a>
+                    </div>
+                    <p class="post-text">Like and Share my designs<span>@pydanny_21</span> on tiktok to watch more videos on website development and UI design. <a href="#">tiktok@pydanny_21</a><a href="#">insta@pydanny21</a></p>
+                    <img src="feed-image-2.png" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like.png" alt="">120</div>
+                            <div><img src="comments.png" alt="">45</div>
+                            <div><img src="share.png" alt="">29</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="profile-pic.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png" alt="">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>July 24 2023, 13:40 PM</span>
+                            </div>                   
+                        </div>
+                        <a href="#">&DotDot;</a>
+                    </div>
+                    <p class="post-text">Subscribe <span>@pydanny_21</span> on tiktok to watch more videos on website development and UI design. <a href="#">tiktok@pydanny_21</a><a href="#">insta@pydanny21</a></p>
+                    <img src="feed-image-1.png" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png" alt="">120</div>
+                            <div><img src="comments.png" alt="">45</div>
+                            <div><img src="share.png" alt="">29</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="profile-pic.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png" alt="">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>July 24 2023, 13:40 PM</span>
+                            </div>                   
+                        </div>
+                        <a href="#">&DotDot;</a>
+                    </div>
+                    <p class="post-text">Like and Share my designs<span>@pydanny_21</span> on tiktok to watch more videos on website development and UI design. <a href="#">tiktok@pydanny_21</a><a href="#">insta@pydanny21</a></p>
+                    <img src="feed-image-2.png" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like.png" alt="">120</div>
+                            <div><img src="comments.png" alt="">45</div>
+                            <div><img src="share.png" alt="">29</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="profile-pic.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png" alt="">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>July 24 2023, 13:40 PM</span>
+                            </div>                   
+                        </div>
+                        <a href="#">&DotDot;</a>
+                    </div>
+                    <p class="post-text">Subscribe <span>@pydanny_21</span> on tiktok to watch more videos on website development and UI design. <a href="#">tiktok@pydanny_21</a><a href="#">insta@pydanny21</a></p>
+                    <img src="feed-image-3.png" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png" alt="">120</div>
+                            <div><img src="comments.png" alt="">45</div>
+                            <div><img src="share.png" alt="">29</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="profile-pic.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png" alt="">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>July 24 2023, 13:40 PM</span>
+                            </div>                   
+                        </div>
+                        <a href="#">&DotDot;</a>
+                    </div>
+                    <p class="post-text">Like and Share my designs<span>@pydanny_21</span> on tiktok to watch more videos on website development and UI design. <a href="#">tiktok@pydanny_21</a><a href="#">insta@pydanny21</a></p>
+                    <img src="feed-image-4.png" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like.png" alt="">120</div>
+                            <div><img src="comments.png" alt="">45</div>
+                            <div><img src="share.png" alt="">29</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="profile-pic.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+ 
+    <div class="footer">
+        <p>&COPY; Copyright 2023 - pydanny21</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
